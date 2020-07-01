@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Retirement_calculator.Person">
+    <Position X="3.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAECEgAAAAgAEAgAAAAAIAAgAAAAAAAAQAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Retirement_calculator.Pension">
+    <Position X="1.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAEAAAAAAAIAAAAAAAAEAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Pension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
