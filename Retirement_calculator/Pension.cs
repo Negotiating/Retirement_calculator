@@ -6,12 +6,14 @@ namespace Retirement_calculator
 		private static double _SP;//размер страховой пенсии
 		private static double _IPK;//индивидуальный пенсионный коэфициент
 		private static double _KvFV=1;//коэфициент повышения ФВ
+		private static double _FV = 5686.25;
+		private static double _PK = 93.00;
 		public Pension() { }
 		public static double Calculate_pension(Person person)
 		{
 			_IPK = Calculate_IPK(person);
 			_KvFV = KvFV(person);
-			return _SP = _IPK * 93.00 + (5686.25 * _KvFV);			
+			return _SP = _IPK * _PK + (_FV * _KvFV);			
 		}
 		public static double Calculate_IPK(Person person)
 		{
